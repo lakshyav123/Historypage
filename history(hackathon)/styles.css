@@ -7,7 +7,6 @@ body{
     color:white;
     margin-bottom:50px;
     
-    
 }
 .heading{
     font-family:"Montserrat-Black",sans-serif;
@@ -18,6 +17,7 @@ body{
     left:300px;
     
 }
+
 
 /* navbar section */
 
@@ -36,32 +36,33 @@ body{
     font-family:"Montserrat-Light",sans-serif;
     font-size: 1.2rem;
 }
-
-.download-button{
-    margin:5% 3% 5% 0;
-}
-hr{
-    width: 80%;
-  }
-.bottom-container{
-    text-align: center;
-}
-.footer-link{
-    
-}
 .next-page{
     margin:5% 3% 5% 0;
     color:#659DBD;
 }
+
+hr{
+    width: 80%;
+    position:relative;
+    top:40px;
+  }
+  /* footer */
+.bottom-container{
+    text-align: center;
+    padding-top:3%;
+}
+
 h6
 {
     color:#659DBD;
 }
 .next-box{
-    position:relative;
-    left:400px;
+    position:absolute;
+    left:500px;
+    
 }
 .details{
     position:relative;
     left:500px;
+    bottom:7px;
 }
